@@ -43,3 +43,9 @@
 .app__aboutus-content_knife img {
     height: 910px;
 }
+
+.app__aboutus-content_history p,
+.app__aboutus-content_about p {
+    margin: 2rem 0;
+    color: var(--color-grey);
+}

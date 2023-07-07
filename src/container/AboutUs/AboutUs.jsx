@@ -11,7 +11,7 @@ const AboutUs = () => (
     </div>
 
     <div className="app__aboutus-content flex__center">
-      <div className="app__aboutus-content">
+      <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="left spoon" className="spoon__img img" />
         <p className="p__opensans">
@@ -28,7 +28,7 @@ const AboutUs = () => (
         <img src={images.knife} alt="knife" />
       </div>
 
-      <div className="app__aboutus-content">
+      <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="left spoon" className="spoon__img img" />
         <p className="p__opensans">

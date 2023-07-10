@@ -22,15 +22,3 @@
     border: 1px solid var(--color-golden);
     cursor: pointer;
 }
-
-@media screen and (max-width: 2000px){
-    .app__chef-sign img {
-        width: 370px;
-    }
-}
-
-@media screen and (max-width: 450px){
-    .app__chef-sign img {
-        width: 80%;
-    }
-}

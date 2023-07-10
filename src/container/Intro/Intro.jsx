@@ -12,7 +12,7 @@ const Intro = () => {
     setPlayVideo((prevState) => !prevState);
   };
 
-  if (playVideo) {
+  if (!playVideo) {
     videoRef.current?.pause();
   } else {
     videoRef.current?.play();

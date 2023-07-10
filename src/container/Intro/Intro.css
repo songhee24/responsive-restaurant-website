@@ -11,4 +11,6 @@
 
 .app__video-overlay {
     position: absolute;
+    inset: 0 auto;
+    background-color: rgba(0,0,0,0.65);
 }

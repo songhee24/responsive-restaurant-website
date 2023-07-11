@@ -1,7 +1,6 @@
 .app__gallery {
-    display: flex;
     flex-direction: row;
-    background-color: var(--color-black);
+    background: var(--color-black);
     padding: 4rem 0 4rem 6rem;
 }
 
@@ -47,11 +46,11 @@
     margin-right: 2rem;
 }
 
-.gallery__image-icon{
+.gallery__image-icon {
     position: absolute;
     color: #fff;
     font-size: 2rem;
-    opacity: 0.5;
+    opacity: 0.3;
     transition: .5s ease;
     cursor: pointer;
 }
@@ -65,15 +64,9 @@
 }
 
 .app__gallery-images_card:hover img {
-    opacity: 0.35;
+    opacity: .35;
 }
 
 .app__gallery-images_card:hover .gallery__image-icon {
     opacity: 1;
-}
-
-.app__gallery-images_arrows {
-    width: 100%;
-    display: flex;
-
 }

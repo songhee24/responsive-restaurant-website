@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import {
   BsInstagram,
   BsArrowLeftShort,
@@ -9,6 +9,8 @@ import { images } from "../../constants";
 import "./Gallery.css";
 
 const Gallery = () => {
+  const scrollRef = useRef(null);
+
   return (
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
@@ -23,7 +25,8 @@ const Gallery = () => {
         </button>
       </div>
       <div className="app__gallery-images">
-        <div className="app__gallery-images_container"></div>
+        <div className="app__gallery-images_container" ref={scrollRef}></div>
+        <div className="app__gallery-images_arrow"></div>
       </div>
     </div>
   );

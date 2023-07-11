@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
+import {
+  BsInstagram,
+  BsArrowLeftShort,
+  BsArrowRightShort,
+} from "react-icons/bs";
+import SubHeading from "../../components/SubHeading/SubHeading";
+import { images } from "../../constants";
+import "./Gallery.css";
 
-import './Gallery.css';
-
-const Gallery = () => (
-  <div>
-    Gallery
-  </div>
-);
+const Gallery = () => <div>Gallery</div>;
 
 export default Gallery;

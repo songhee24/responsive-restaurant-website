@@ -46,7 +46,7 @@ const Gallery = () => {
             return (
               <div className="app__gallery-images_card" key={index}>
                 <img src={image} alt="gallery" />
-                <BsInstagram className="gallery__image" />
+                <BsInstagram className="gallery__image-icon" />
               </div>
             );
           })}

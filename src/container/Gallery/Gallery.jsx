@@ -8,6 +8,13 @@ import SubHeading from "../../components/SubHeading/SubHeading";
 import { images } from "../../constants";
 import "./Gallery.css";
 
+const imagesArr = [
+  images.gallery01,
+  images.gallery02,
+  images.gallery03,
+  images.gallery04,
+];
+
 const Gallery = () => {
   const scrollRef = useRef(null);
 
@@ -34,7 +41,11 @@ const Gallery = () => {
         </button>
       </div>
       <div className="app__gallery-images">
-        <div className="app__gallery-images_container" ref={scrollRef}></div>
+        <div className="app__gallery-images_container" ref={scrollRef}>
+          {imagesArr.map((image, index) => {
+            return <div className="app__gallery-images_card" key={index}></div>;
+          })}
+        </div>
         <div className="app__gallery-images_arrow">
           <BsArrowLeftShort
             className="gallery__arrow-icon"

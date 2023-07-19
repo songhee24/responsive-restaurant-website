@@ -12,12 +12,13 @@
   --color-white: #FFFFFF;
 }
 
+
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  outline: 1px solid red;
 }
 
 
